@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  background-color: #f3f3f3;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contenedor-trimestres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.trimestre {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  width: 300px;
+  background-color: #fff;
+}
+
+.trimestre h2 {
+  text-align: center;
+  background-color: #e4e4e4;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.materia {
+  margin: 6px 0;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #a4c3b2;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.materia:hover {
+  background-color: #6b9080;
+  color: white;
+}
+
+.materia.completada {
+  background-color: #8bc34a;
+  color: white;
+}
+
+.materia.bloqueada {
+  background-color: #cccccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.info-box {
+  margin-top: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
